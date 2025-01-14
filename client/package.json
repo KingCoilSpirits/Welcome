@@ -5,7 +5,7 @@
   "type": "module",
   "homepage": "https://KingCoilSpirits.github.io/Welcome",
   "scripts": {
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",

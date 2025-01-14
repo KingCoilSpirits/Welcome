@@ -13,7 +13,7 @@ setTimeout(() => {
 }, 3000);
 
 const navigateTo = (url: string) => {
-  window.location.replace(`${url}?tableNumber=${tableNumber}`);
+  window.location.replace(`${url}?tableNumber${tableNumber}`);
 };
 </script>
 <template class="h-screen">
